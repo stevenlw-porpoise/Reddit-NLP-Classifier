@@ -2,7 +2,7 @@
 The goal of this project is to use NLP to classify Reddit posts from 2 subreddits: [OCPoetry](https://www.reddit.com/r/OCPoetry) and [shortscarystories](https://www.reddit.com/r/shortscarystories/). This is the third project I did as part of the General Assembly [Data Science Immersive Bootcamp](https://generalassemb.ly/education/data-science-immersive-remote).
 
 ### Executive Summary
-Data for the project was collected using the [Pushshift Reddit API](https://github.com/pushshift/api). After removing duplicated and short posts, a total of 56550 posts remain, evenly split between the two subreddits. The posts from r/OCPoetry date from April 2020 to January 2022 while the posts from r/shortscarystories are from June 2018 to January 2022. Additional data cleaning steps consisted of filling empty strings, removing URLs, and removing additional markdown non text codes such as "&amp;#x200B;" (a zero width space).
+Data for the project was collected using the [Pushshift Reddit API](https://github.com/pushshift/api). After removing duplicated and short posts, a total of 56550 posts remain, evenly split between the two subreddits. The posts from r/OCPoetry date from April 2020 to January 2022 while the posts from r/shortscarystories are from June 2018 to January 2022. Additional data cleaning steps consisted of filling empty strings, removing URLs, and removing additional markdown non text codes such as "&amp;#x200B;" (a zero width space). 
 
 I was able to use several NLP feature engineering steps that performed well on their own and in addition to bag of words features. These were 
 * word count
