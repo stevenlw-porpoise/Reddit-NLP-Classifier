@@ -24,4 +24,4 @@ For tables with the accuracy of all trained models see the presentation slides i
 * presentation.pdf - Presentation slides delivered on February 4, 2022 as part of the General Assembly Data Science Immersive course.
 
 ### Folders
-* data - Contains data files generated from this project.
+* data - Contains data files generated from this project. 
