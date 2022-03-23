@@ -11,8 +11,9 @@ I was able to use several NLP feature engineering steps that performed well on t
 * Polarity and subjectivity sentiment scores from the textblob library.
 
 In the modelling phase I built classifiers using different feature sets (bag of words, individual feature sets listed above with and without bag of words, and all features) and classification algorithms (logistic regression, multinomial Naive Bayes, random forests, and boosting models).
-The best bag of words model was a logistic regression using 5,000 unigrams with a Tf-idf vectorization and score 92.3% accuracy.
+The best bag of words model was a logistic regression using 5,000 unigrams with a Tf-idf vectorization and scored 92.3% test-set accuracy.
 A logistic regression model trained on white space alone did nearly as well scoring 91.0% accuracy.
+In fact, a model with a single feature, the proportion of new line characters alone, hit 90.2% accuracy.
 The best model on all features was a Light GBM classifier with all the features and 5,000 unigrams and bigrams with Tf-idf vectorization, scoring 96.0%.
 For tables with the accuracy of all trained models see the presentation slides in this repo.
 
